@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes in minutes with AI-powered suggestions and templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+      
+    ],
+    "icon": "https://i.ibb.co.com/jP43QN8g/Group-7-3.png"
+  },
+  {
+    "id": 2,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters tailored to job descriptions instantly.",
+    "price": 5.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Job-specific letters",
+      "AI customization",
+      "Multiple tones"
+      
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Pack",
+    "description": "All-in-one toolkit to boost your job applications and interview success.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + Cover Letter tools",
+      "Interview questions bank",
+      "Skill suggestions"
+      
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Creator",
+    "description": "Build stunning personal portfolios without coding skills.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop builder",
+      "Responsive designs",
+      "Custom domains"
+    
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep AI",
+    "description": "Practice real interview questions with AI feedback and scoring.",
+    "price": 47.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Mock interviews",
+      "AI feedback",
+      "Industry-specific questions"
+      
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "Job Tracker Pro",
+    "description": "Track and manage all your job applications in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Application tracking",
+      "Deadline reminders",
+      "Status updates"
+      
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 7,
+    "name": "Skill Upgrade Hub",
+    "description": "Learn in-demand skills to improve your career prospects.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Video lessons",
+      "Certifications",
+      "Project-based learning"
+    ],
+    "icon": "📚"
+  },
+  {
+    "id": 8,
+    "name": "AI Interview Coach",
+    "description": "Get real-time AI coaching during mock interviews.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Live AI feedback",
+      "Voice analysis",
+      "Answer suggestions"
+    
+    ],
+    "icon": "🧠"
+  },
+  {
+    "id": 9,
+    "name": "Freelancer Toolkit",
+    "description": "Everything freelancers need to manage clients and projects.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Invoice generator",
+      "Client management",
+      "Project tracking"
+  
+    ],
+    "icon": "https://i.ibb.co.com/pT96ZGk/Group-7-2.png"
+  }
+ 
+]
