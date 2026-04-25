@@ -4,7 +4,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 const Navbar = () => {
   return (
     <>
-      <div className="bg-base-100 shadow">
+      <div className="bg-base-100 shadow  sticky">
         <div className="navbar w-full  md:max-w-10/12 mx-auto">
           <div className="navbar-start ">
             <div className="dropdown">

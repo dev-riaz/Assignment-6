@@ -11,7 +11,7 @@ const Products = ({ cards }) => {
             <div className="card-body">
               <div className="flex justify-between">
                 <span>
-                  <img src={card.icon} alt="icon" />
+                  <img className="w-15 rounded-full" src={card.icon} alt="icon" />
                 </span>
                 <span
                   className={`badge badge-xs ${card.tag === "best seller" ? "bg-[#FEF3C6] text-[#BB4D00]" : card.tag === "popular" ? "bg-[#E1E7FF] text-[#4F39F6]" : card.tag === "new" ? "bg-[#DBFCE7] text-[#0A883E]" : ""} font-bold py-2 px-3`}
@@ -87,7 +87,7 @@ const Products = ({ cards }) => {
                 </li>
               </ul>
               <div className="mt-6">
-                <button className="btn btn-primary btn-block">Subscribe</button>
+                <button className="btn bg-linear-to-r from-[#6a12edf6] to-[#9514FA] rounded-full text-white btn-block">Subscribe</button>
               </div>
             </div>
           </div>

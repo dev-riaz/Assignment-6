@@ -1,0 +1,386 @@
+import React from "react";
+
+const PricingCard = () => {
+  return (
+    <div>
+      <div className="w-full  md:max-w-10/12 mx-auto mt-20">
+        <div className="text-center space-y-2">
+          <h1 className="text-3xl font-bold">Simple, Transparent Pricing</h1>
+          <p className="text-gray-500">
+            Choose the plan that fits your needs. Upgrade or downgrade anytime.
+          </p>
+        </div>
+        <div className="my-8 grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="card bg-gray-400/5 shadow-sm">
+            <div className="card-body">
+              <div className="space-y-4">
+                <div className="">
+                  <h2 className="text-xl font-bold">Starter</h2>
+                  <p className="text-gray-500">Perfect for getting started</p>
+                </div>
+                <span className=""><span className="text-xl font-bold">$29</span>/mo</span>
+              </div>
+              <ul className="mt-2 flex flex-col gap-2 text-xs">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Access to 10 free tools</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Basic templates</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Community support</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">1 project per month</span>
+                </li>
+                <li className="opacity-50">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-base-content/50"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="line-through">
+                    Seamless cloud integration
+                  </span>
+                </li>
+                <li className="opacity-50">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-base-content/50"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="line-through">
+                    Real-time collaboration tools
+                  </span>
+                </li>
+              </ul>
+              <div className="mt-6">
+                <button className="btn bg-linear-to-r from-[#6a12edf6] to-[#9514FA] btn-block text-white rounded-full">Get Started Free</button>
+              </div>
+            </div>
+          </div>
+          <div className="card bg-gray-400/5 shadow-sm">
+            <div className="card-body">
+              <div className="space-y-4">
+                <div className="">
+                  <h2 className="text-xl font-bold">Starter</h2>
+                  <p className="text-gray-500">Perfect for getting started</p>
+                </div>
+                <span className=""><span className="text-xl font-bold">$29</span>/mo</span>
+              </div>
+              <ul className="mt-2 flex flex-col gap-2 text-xs">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Access to 10 free tools</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Basic templates</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Community support</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">1 project per month</span>
+                </li>
+                <li className="opacity-50">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-base-content/50"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="line-through">
+                    Seamless cloud integration
+                  </span>
+                </li>
+                <li className="opacity-50">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-base-content/50"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="line-through">
+                    Real-time collaboration tools
+                  </span>
+                </li>
+              </ul>
+              <div className="mt-6">
+                <button className="btn bg-linear-to-r from-[#6a12edf6] to-[#9514FA] btn-block text-white rounded-full">Start Pro Trial</button>
+              </div>
+            </div>
+          </div>
+          <div className="card bg-gray-400/5 shadow-sm">
+            <div className="card-body">
+              <div className="space-y-4">
+                <div className="">
+                  <h2 className="text-xl font-bold">Starter</h2>
+                  <p className="text-gray-500">Perfect for getting started</p>
+                </div>
+                <span className=""><span className="text-xl font-bold">$29</span>/mo</span>
+              </div>
+              <ul className="mt-2 flex flex-col gap-2 text-xs">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Access to 10 free tools</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Basic templates</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">Community support</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-success"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="text-gray-500">1 project per month</span>
+                </li>
+                <li className="opacity-50">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-base-content/50"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="line-through">
+                    Seamless cloud integration
+                  </span>
+                </li>
+                <li className="opacity-50">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="size-4 me-2 inline-block text-base-content/50"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                  <span className="line-through">
+                    Real-time collaboration tools
+                  </span>
+                </li>
+              </ul>
+              <div className="mt-6">
+                <button className="btn bg-linear-to-r from-[#6a12edf6] to-[#9514FA] btn-block text-white rounded-full">Contact Sales</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PricingCard;
