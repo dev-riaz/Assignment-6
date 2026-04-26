@@ -1,6 +1,6 @@
 import React from "react";
 import { toast } from "react-toastify";
-import image from "../assets/placeholder.jpg"
+import image from "../assets/Shopping_cart.png"
 // import { toast } from "react-toastify";
 
 const Cart = ({ carts, setCarts }) => {
@@ -28,13 +28,13 @@ const Cart = ({ carts, setCarts }) => {
           <h1>Your Cart</h1>
         </div>
         {carts.length === 0 ? (
-          <div className="flex flex-col justify-center items-center bg-base-200 p-5 gap-2 rounded-2xl mt-4">
+          <div className="flex flex-col justify-center items-center p-5 gap-2 rounded-2xl mt-4">
             <img
               className="w-60 h-40 rounded-2xl"
               src={image}
               alt="empty image"
             />
-            <h1 className="text-xl font-bold text-gray-400">
+            <h1 className="text-xl font-bold text-gray-400 ml-3">
               Your Cart is empty
             </h1>
           </div>

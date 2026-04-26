@@ -1,16 +1,100 @@
-# React + Vite
+# 🛒 DigiTools - React E-commerce UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 🚀 A modern and responsive digital product marketplace built with React
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 Description
 
-## React Compiler
+DigiTools is a clean and user-friendly e-commerce web application where users can browse digital products, add them to cart, and manage purchases easily. The UI is fully responsive and follows a modern SaaS-style design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React.js
+- 🎨 Tailwind CSS & DaisyUI
+- 🟨 JavaScript (ES6+)
+- 🔔 React-Toastify
+- 📦 JSON Data
+
+---
+
+## ✨ Key Features
+
+- 🛒 Add to cart & remove functionality with live update
+- 🔄 Toggle between Products and Cart section
+- 📱 Fully responsive design for all devices
+
+---
+
+## 🧭 Main Sections
+
+- Navbar with cart count
+- Banner with CTA buttons
+- Stats section
+- Product & Cart toggle section
+- Product cards (3-column layout)
+- Cart system with checkout
+- Steps & Pricing section
+- Footer
+
+---
+
+## 📦 Product Features
+
+- Product name, description, price & billing period
+- Tag (Popular, New, Best Seller)
+- Feature list
+- Icon support
+- Buy Now button with toast notification
+
+---
+
+## 🛒 Cart Functionality
+
+- Add products to cart
+- Remove individual items
+- Show total count in navbar
+- Proceed to checkout (clears cart)
+- Toast alerts for all actions
+
+---
+
+## 📊 JSON Data Structure
+
+```json
+{
+  "id": 1,
+  "name": "Product Name",
+  "description": "Short description",
+  "price": 10,
+  "period": "monthly",
+  "tag": "popular",
+  "tagType": "popular",
+  "features": ["Feature 1", "Feature 2"],
+  "icon": "icon-name"
+}
+```
+
+---
+
+## 🔗 Live Demo
+
+👉 https://riaz-assignment-6.netlify.app/
+
+---
+
+## 🎯 Challenges Implemented
+
+- React Toastify integration for alerts
+- Dynamic cart system with state management
+- Toggle UI system (Products ↔ Cart)
+
+---
+
+## 👨‍💻 Author
+
+- Riaz Mahamud
+- GitHub: https://github.com/dev-riaz
+
