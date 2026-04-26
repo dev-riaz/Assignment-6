@@ -1,11 +1,13 @@
 import React from "react";
+import NavCartIcon from "./NavCartIcon";
 import { FaCartArrowDown } from "react-icons/fa";
+const Navbar = ({ carts }) => {
+  // console.log(carts);
 
-const Navbar = () => {
   return (
     <>
-      <div className="bg-base-100 shadow  sticky">
-        <div className="navbar w-full  md:max-w-10/12 mx-auto">
+      <div className="bg-base-100 shadow">
+        <div className="navbar w-full md:max-w-10/12 mx-auto">
           <div className="navbar-start ">
             <div className="dropdown">
               <div
@@ -73,14 +75,17 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-end gap-2 md:gap-4">
+          <div className="navbar-end gap-2 md:gap-3">
             <ul className="flex justify-between items-center gap-2 md:gap-4">
-              <li>
-                <FaCartArrowDown></FaCartArrowDown>
+              <li className="absolute">
+                <div className="w-4 h-4 flex items-center justify-center bg-lime-300 rounded-full font-bold relative -left-4 text-[12px] text-red-600">{carts.length}</div>
+                <FaCartArrowDown className="relative bottom-2 -left-7"></FaCartArrowDown>
               </li>
               <li className="font-bold">Login</li>
             </ul>
-            <a className="btn rounded-full text-white bg-linear-to-r from-[#6a12edf6] to-[#9514FA]">Get Started</a>
+            <a className="btn rounded-full text-white bg-linear-to-r from-[#6a12edf6] to-[#9514FA]">
+              Get Started
+            </a>
           </div>
         </div>
       </div>

@@ -6,8 +6,7 @@ const Banner = () => {
   return (
     <div>
       <div className="hero min-h-screen w-full  md:max-w-10/12 mx-auto">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img className="w-[400px]" src={banner} alt="banner" />
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center">
           <div className="space-x-4">
             <div className="badge bg-[#E1E7FF] text-[#9514FA] rounded-full">
               New: AI-Powered Tools Available
@@ -23,7 +22,12 @@ const Banner = () => {
             <button className="btn rounded-full text-white bg-linear-to-r from-[#6a12edf6] to-[#9514FA]">
               Explore Products
             </button>
-            <button className="btn btn-outline text-[#9514FA] rounded-full"><CiPlay1></CiPlay1> Watch Demo</button>
+            <button className="btn btn-outline text-[#9514FA] rounded-full">
+              <CiPlay1></CiPlay1> Watch Demo
+            </button>
+          </div>
+          <div className="p-2">
+            <img className="md:max-w-100 " src={banner} alt="banner" />
           </div>
         </div>
       </div>

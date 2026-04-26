@@ -6,15 +6,15 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
-        <div className=" w-full  md:max-w-10/12 mx-auto grid grid-cols-5 text-gray-400">
-          <div className="w-50 space-y-3">
+        <div className=" w-full  md:max-w-10/12 mx-auto grid grid-cols-2 md:grid-cols-5 text-gray-400">
+          <div className="w-40 space-y-3">
             <h3 className="text-2xl text-white font-bold">DigiTools</h3>
             <p>
               Premium digital tools for creators, professionals, and businesses.
               Work smarter with our suite of powerful tools.
             </p>
           </div>
-          <div className="flex flex-col ml-8 space-y-3">
+          <div className="flex flex-col ml-10 space-y-3">
             <h5 className="text-white font-bold">Product</h5>
             <a className="link link-hover">Features</a>
             <a className="link link-hover">Pricing</a>
@@ -59,7 +59,7 @@ const Footer = () => {
       </footer>
       <hr className="text-gray-500" />
       <footer className="footer sm:footer-horizontal  bg-neutral text-neutral-content p-4">
-        <aside className="w-full md:max-w-10/12 mx-auto flex justify-between text-gray-500">
+        <aside className="w-full md:max-w-10/12 mx-auto grid md:grid-cols-2 grid-cols-1 text-gray-500">
           <p>
             © 2026 DigiTools. All rights reserved. {new Date().getFullYear()}
           </p>

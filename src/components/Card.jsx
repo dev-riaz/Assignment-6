@@ -1,8 +1,16 @@
-import React, { use } from "react";
+import React, { use, useState } from "react";
 import Products from "./Products";
+import Cart from "./Cart";
 
-const Card = ({ cardDataPromise }) => {
+const Card = ({ cardDataPromise, carts, setCarts }) => {
   const cards = use(cardDataPromise);
+  const [activeTab, setActiveTab] = useState("products");
+  // const [carts, setCarts] = useState([]);
+
+  const tabHandle = () => {
+    setActiveTab("products");
+  };
+
   return (
     <>
       <div>
@@ -15,12 +23,25 @@ const Card = ({ cardDataPromise }) => {
             </p>
           </div>
         </div>
-        <div className="text-center space-x-2 rounded-full p-1 border border-base-300 w-[200px] mx-auto my-4">
-          <button className="btn rounded-full">Products</button>
-          <button className="btn rounded-full">Cart (2)</button>
+        <div className="text-center space-x-2 rounded-full p-1 border border-base-300 w-[200px] mx-auto my-4 flex">
+          <button
+            onClick={tabHandle}
+            className={`btn rounded-full ${activeTab === "products" ? "bg-linear-to-r from-[#6a12edf6] to-[#9514FA] text-white" : "bg-white"}`}
+          >
+            Products
+          </button>
+          <button
+            onClick={() => setActiveTab("cart")}
+            className={`btn rounded-full ${activeTab === "cart" ? "bg-linear-to-r from-[#6a12edf6] to-[#9514FA] text-white" : "bg-white"}`}
+          >
+            {`Carts(${carts.length})`}
+          </button>
         </div>
       </div>
-      <Products cards={cards}></Products>
+      {activeTab === "products" && (
+        <Products cards={cards} carts={carts} setCarts={setCarts}></Products>
+      )}
+      {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
     </>
   );
 };
