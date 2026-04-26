@@ -10,8 +10,8 @@ const PricingCard = () => {
             Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>
-        <div className="my-8 grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className="card bg-gray-400/5 shadow-sm">
+        <div className="my-8 grid grid-cols-1 md:grid-cols-3 gap-10 mb-20">
+          <div className="card bg-gray-400/5 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg h-96  mt-5">
             <div className="card-body">
               <div className="space-y-4">
                 <div className="">
@@ -108,33 +108,14 @@ const PricingCard = () => {
                     Seamless cloud integration
                   </span>
                 </li>
-                <li className="opacity-50">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-4 me-2 inline-block text-base-content/50"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                  <span className="line-through">
-                    Real-time collaboration tools
-                  </span>
-                </li>
               </ul>
               <div className="mt-6">
                 <button className="btn bg-linear-to-r from-[#6a12edf6] to-[#9514FA] btn-block text-white rounded-full">Get Started Free</button>
               </div>
             </div>
           </div>
-          <div className="card bg-linear-to-r from-[#6a12edf6] to-[#9514FA] shadow-sm">
-            <div className="card-body text-white">
+          <div className="card bg-linear-to-r from-[#6a12edf6] to-[#9514FA] rounded-xl shadow-md transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg border-2 border-[#FF79C6]">
+            <div className="card-body text-white space-y-8">
               <div className="badge bg-[#FEF3C6] text-[#BB4D00] rounded-full absolute left-28 -top-3">Most Popular</div>
               <div className="space-y-4">
                 <div className="">
@@ -256,8 +237,8 @@ const PricingCard = () => {
               </div>
             </div>
           </div>
-          <div className="card bg-gray-400/5 shadow-sm">
-            <div className="card-body">
+          <div className="card bg-gray-400/5 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg h-96 mt-5">
+            <div className="card-body ">
               <div className="space-y-4">
                 <div className="">
                   <h2 className="text-xl font-bold">Enterprise</h2>

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Resume Builder Pro",
+    "name": "Resume Builder",
     "description": "Create professional resumes in minutes with AI-powered suggestions and templates.",
     "price": 9.99,
     "period": "monthly",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "name": "Cover Letter Generator",
+    "name": "Cover Generator",
     "description": "Generate personalized cover letters tailored to job descriptions instantly.",
     "price": 5.99,
     "period": "one-time",
@@ -33,7 +33,7 @@
   },
   {
     "id": 3,
-    "name": "Career Booster Pack",
+    "name": "Career Booster",
     "description": "All-in-one toolkit to boost your job applications and interview success.",
     "price": 49.99,
     "period": "yearly",

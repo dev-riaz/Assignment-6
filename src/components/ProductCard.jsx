@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FiShoppingCart } from "react-icons/fi";
 import { toast } from "react-toastify";
 // import { toast } from "react-toastify";
 
@@ -16,7 +17,7 @@ const ProductCard = ({ card, carts, setCarts }) => {
 
   return (
     <div>
-      <div key={card.id} className="card bg-base-100 shadow-sm ">
+      <div key={card.id} className="card bg-base-100 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg ">
         <div className="card-body">
           <div className="flex justify-between">
             <span>
@@ -101,7 +102,7 @@ const ProductCard = ({ card, carts, setCarts }) => {
               disabled={isBuy}
               className="btn bg-linear-to-r from-[#6a12edf6] to-[#9514FA] rounded-full text-white btn-block"
             >
-              {isBuy ? "Added" : "Buy Now"}
+             <FiShoppingCart></FiShoppingCart> {isBuy ? "Added" : "Buy Now"}
             </button>
           </div>
         </div>
