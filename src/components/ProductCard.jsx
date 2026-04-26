@@ -17,11 +17,11 @@ const ProductCard = ({ card, carts, setCarts }) => {
 
   return (
     <div>
-      <div key={card.id} className="card bg-base-100 rounded-xl shadow-md transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg ">
+      <div key={card.id} className="card bg-base-100 rounded-xl border-2 border-gray-400/15 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg ">
         <div className="card-body">
           <div className="flex justify-between">
             <span>
-              <img className="w-15 rounded-full" src={card.icon} alt="icon" />
+              <img className="w-15 h-15 rounded-full" src={card.icon} alt="icon" />
             </span>
             <span
               className={`badge badge-xs ${card.tag === "best seller" ? "bg-[#FEF3C6] text-[#BB4D00]" : card.tag === "popular" ? "bg-[#E1E7FF] text-[#4F39F6]" : card.tag === "new" ? "bg-[#DBFCE7] text-[#0A883E]" : ""} font-bold py-2 px-3`}

@@ -23,16 +23,16 @@ const Card = ({ cardDataPromise, carts, setCarts }) => {
             </p>
           </div>
         </div>
-        <div className="text-center space-x-2 rounded-full p-1 border border-base-300 w-[200px] mx-auto my-4 flex">
+        <div className="text-center space-x-2 rounded-full p-1 border border-base-300 w-[300px] mx-auto my-4 flex justify-center">
           <button
             onClick={tabHandle}
-            className={`btn rounded-full ${activeTab === "products" ? "bg-linear-to-r from-[#6a12edf6] to-[#9514FA] text-white" : "bg-white"}`}
+            className={`btn rounded-full flex-1 ${activeTab === "products" ? "bg-linear-to-r from-[#6a12edf6] to-[#9514FA] text-white" : "bg-white"}`}
           >
             Products
           </button>
           <button
             onClick={() => setActiveTab("cart")}
-            className={`btn rounded-full ${activeTab === "cart" ? "bg-linear-to-r from-[#6a12edf6] to-[#9514FA] text-white" : "bg-white"}`}
+            className={`btn rounded-full flex-1 ${activeTab === "cart" ? "bg-linear-to-r from-[#6a12edf6] to-[#9514FA] text-white" : "bg-white"}`}
           >
             {`Carts(${carts.length})`}
           </button>

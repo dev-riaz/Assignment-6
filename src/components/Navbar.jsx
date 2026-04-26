@@ -1,5 +1,5 @@
 import React from "react";
-import NavCartIcon from "./NavCartIcon";
+// import NavCartIcon from "./NavCartIcon";
 import { FaCartArrowDown } from "react-icons/fa";
 const Navbar = ({ carts }) => {
   // console.log(carts);
@@ -7,7 +7,7 @@ const Navbar = ({ carts }) => {
   return (
     <>
       <div className="bg-base-100 shadow sticky top-0 z-50">
-        <div className="navbar w-full md:max-w-11/12 mx-auto">
+        <div className="navbar w-full md:w-11/12 mx-auto">
           <div className="navbar-start ">
             <div className="dropdown">
               <div
@@ -78,7 +78,11 @@ const Navbar = ({ carts }) => {
           <div className="navbar-end gap-2 md:gap-3">
             <ul className="flex justify-between items-center gap-2 md:gap-4">
               <li className="absolute">
-                <div className="w-4 h-4 flex items-center justify-center bg-lime-300 rounded-full font-bold relative -left-4 text-[12px] text-red-600">{carts.length}</div>
+                <div
+                  className={`w-4 h-4 flex items-center justify-center rounded-full font-bold relative -left-4 ${carts.length === 0 ? "bg-white text-white" :" bg-red-600  text-[12px] text-white"} `}
+                >
+                  {carts.length}
+                </div>
                 <FaCartArrowDown className="relative bottom-2 -left-7"></FaCartArrowDown>
               </li>
               <li className="font-bold">Login</li>

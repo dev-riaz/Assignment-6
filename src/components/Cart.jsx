@@ -1,5 +1,6 @@
 import React from "react";
 import { toast } from "react-toastify";
+import image from "../assets/placeholder.jpg"
 // import { toast } from "react-toastify";
 
 const Cart = ({ carts, setCarts }) => {
@@ -22,7 +23,7 @@ const Cart = ({ carts, setCarts }) => {
 
   return (
     <div>
-      <div className="w-full  md:max-w-11/12 mx-auto border-2 border-base-300 rounded-2xl p-5">
+      <div className="w-11/12 mx-auto border-2 border-base-300 rounded-2xl p-5">
         <div className="text-xl font-bold">
           <h1>Your Cart</h1>
         </div>
@@ -30,8 +31,8 @@ const Cart = ({ carts, setCarts }) => {
           <div className="flex flex-col justify-center items-center bg-base-200 p-5 gap-2 rounded-2xl mt-4">
             <img
               className="w-60 h-40 rounded-2xl"
-              src="/public/placeholder.jpg"
-              alt=""
+              src={image}
+              alt="empty image"
             />
             <h1 className="text-xl font-bold text-gray-400">
               Your Cart is empty

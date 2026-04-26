@@ -5,8 +5,8 @@ import { CiPlay1 } from "react-icons/ci";
 const Banner = () => {
   return (
     <div>
-      <div className="hero min-h-screen w-full  md:max-w-11/12 mx-auto">
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center">
+      <div className="hero min-h-screen w-11/12 mx-auto">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center text-center md:text-start">
           <div className="space-x-4">
             <div className="badge bg-[#E1E7FF] text-[#9514FA] rounded-full">
               New: AI-Powered Tools Available

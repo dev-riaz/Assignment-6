@@ -5,7 +5,7 @@ import image3 from "../assets/rocket.png"
 const StepCard = () => {
   return (
     <div>
-      <div className="w-full  md:max-w-11/12 mx-auto mt-25">
+      <div className="w-11/12 mx-auto mt-25">
         <div className="text-center space-y-2">
           <h1 className="text-3xl font-bold">Get Started in 3 Steps</h1>
           <p className="text-gray-500">
