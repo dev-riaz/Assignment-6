@@ -22,7 +22,7 @@ const Cart = ({ carts, setCarts }) => {
 
   return (
     <div>
-      <div className="w-full  md:max-w-10/12 mx-auto border-2 border-base-300 rounded-2xl p-5">
+      <div className="w-full  md:max-w-11/12 mx-auto border-2 border-base-300 rounded-2xl p-5">
         <div className="text-xl font-bold">
           <h1>Your Cart</h1>
         </div>

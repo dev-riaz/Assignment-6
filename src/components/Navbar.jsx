@@ -6,8 +6,8 @@ const Navbar = ({ carts }) => {
 
   return (
     <>
-      <div className="bg-base-100 shadow">
-        <div className="navbar w-full md:max-w-10/12 mx-auto">
+      <div className="bg-base-100 shadow sticky top-0 z-50">
+        <div className="navbar w-full md:max-w-11/12 mx-auto">
           <div className="navbar-start ">
             <div className="dropdown">
               <div
@@ -17,7 +17,7 @@ const Navbar = ({ carts }) => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className=" md:h-4 w-4 md:w-5"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -52,7 +52,7 @@ const Navbar = ({ carts }) => {
                 </li>
               </ul>
             </div>
-            <a className="text-3xl font-bold bg-linear-to-r from-[#6a12edf6] to-[#9514FA] bg-clip-text text-transparent">
+            <a className="text-xl md:text-3xl font-bold bg-linear-to-r from-[#6a12edf6] to-[#9514FA] bg-clip-text text-transparent">
               DigiTools
             </a>
           </div>
@@ -83,7 +83,7 @@ const Navbar = ({ carts }) => {
               </li>
               <li className="font-bold">Login</li>
             </ul>
-            <a className="btn rounded-full text-white bg-linear-to-r from-[#6a12edf6] to-[#9514FA]">
+            <a className="btn  rounded-full text-white bg-linear-to-r from-[#6a12edf6] to-[#9514FA]">
               Get Started
             </a>
           </div>

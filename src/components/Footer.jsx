@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
-        <div className=" w-full  md:max-w-10/12 mx-auto grid grid-cols-2 md:grid-cols-5 text-gray-400">
+        <div className=" w-full  md:max-w-11/12 mx-auto grid grid-cols-2 md:grid-cols-5 text-gray-400">
           <div className="w-40 space-y-3">
             <h3 className="text-2xl text-white font-bold">DigiTools</h3>
             <p>
