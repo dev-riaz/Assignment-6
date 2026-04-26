@@ -22,8 +22,7 @@ const StepCard = () => {
             </div>
             <h3 className="font-bold text-xl">Create Account</h3>
             <p className="text-gray-500">
-              Sign up for free in seconds. No credit card required to get
-              started.
+              Sign up for free in seconds. No credit card required to get started.
             </p>
           </div>
           <div className="shadow-sm gap-3 flex flex-col items-center text-center py-14 rounded-xl border border-gray-500/25">
@@ -33,10 +32,9 @@ const StepCard = () => {
             <div className="w-20 h-20 bg-[#9614fa4b] flex justify-center items-center rounded-full">
               <img src={image2} alt="image" />
             </div>
-            <h3 className="font-bold text-xl">Create Account</h3>
+            <h3 className="font-bold text-xl">Choose Products</h3>
             <p className="text-gray-500">
-              Sign up for free in seconds. No credit card required to get
-              started.
+              Browse our catalog and select the tools <br /> that fit your needs.
             </p>
           </div>
           <div className="shadow-sm gap-3 flex flex-col items-center text-center py-14 rounded-xl border border-gray-500/25">
@@ -46,10 +44,9 @@ const StepCard = () => {
             <div className="w-20 h-20 bg-[#9614fa4b] flex justify-center items-center rounded-full">
               <img src={image3} alt="image" />
             </div>
-            <h3 className="font-bold text-xl">Create Account</h3>
+            <h3 className="font-bold text-xl">Start Creating</h3>
             <p className="text-gray-500">
-              Sign up for free in seconds. No credit card required to get
-              started.
+             Download and start using your premium tools immediately.
             </p>
           </div>
         </div>
